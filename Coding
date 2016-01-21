@@ -1,0 +1,42 @@
+Area 51 is a common name for air force base in Nevada, United States
+
+we require 7 rats as 2^7 = 128 which is the closest ot 100 in terms of power of two
+so we can determine ech and every sample of the drug by using 7 rats 
+rat 1 represents 2^0 rat2 represents 2^1 and so on 
+suppose rat 4 and rat 3 dies this means it was from sample(2^3 + 2^2)=12
+for sample 100 rat 7 & rat 6 & rat 3(because (2^6+2^5+2^2)= 100)
+
+
+Cllosest To Zero
+
+public static void zero(int a[]){
+int x = 0,y=0; 
+boolean z  = false;
+for(int i:a){
+if(i>0)
+x++;
+if(i==0)
+z = true;
+else 
+y++;
+}
+int p[] = new int[x];
+int n[] = new int[y];
+int j =0,k=0;
+for(int i:a){
+if(i>0){
+p[j] = i;
+j++;
+}
+
+else if(i<0){ 
+n[k] = i;
+k++;
+}
+for(int i=0;i<p.length;i++){
+for(int l=0;l<n.length;l++{
+
+}
+}
+
+}
