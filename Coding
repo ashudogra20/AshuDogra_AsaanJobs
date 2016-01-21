@@ -7,7 +7,37 @@ suppose rat 4 and rat 3 dies this means it was from sample(2^3 + 2^2)=12
 for sample 100 rat 7 & rat 6 & rat 3(because (2^6+2^5+2^2)= 100)
 
 
-Cllosest To Zero
+
+
+
+
+
+
+
+Help Sheeba Out
+
+
+create an array int[] n = new int[101];
+loop through each elemnt in original array{
+n[element]++;
+}
+loop though n {
+if(n[i] == 2)
+the i is the required element
+break;
+}
+
+
+
+
+
+
+
+
+
+
+
+Closest To Zero
 
 public static void zero(int a[]){
 int x = 0,y=0; 
